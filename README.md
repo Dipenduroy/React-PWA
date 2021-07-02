@@ -56,13 +56,13 @@ Add [worker.js](public/worker.js) file to the project public folder.
 
 ## Register the service worker
 
-Add below import in [public/index.js](public/index.js)
+Add below import in [src/index.js](src/index.js)
 
 ```
 import * as serviceWorkerRegistration from './serviceWorkerRegistration';
 ```
 
-Add below code to register the service worker in [public/index.js](public/index.js)
+Add below code to register the service worker in [src/index.js](src/index.js)
 
 ```
 // If you want your app to work offline and load faster, you can change
@@ -71,7 +71,7 @@ Add below code to register the service worker in [public/index.js](public/index.
 serviceWorkerRegistration.register();
 ```
 
-Check for the unregister() function for any service worker available in [public/index.js](public/index.js) and comment it.
+Check for the unregister() function for any service worker available in [src/index.js](src/index.js) and comment it.
 
 ```
 //serviceWorkerRegistration.unregister();
